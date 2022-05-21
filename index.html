@@ -7,13 +7,25 @@
     <link href="./styles.css" rel="stylesheet">
     <title>Hello World!</title>
   </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+  <body id=="index">
+    <div class="bodyMain">
+      <h1>My first App</h1>
+      We are using Node.js <span id="node-version"></span>,
+      Chromium <span id="chrome-version"></span>,
+      and Electron <span id="electron-version"></span>.
+      <br/>
+      <br/>
 
+    </div>
+    <div class="inputMain">
+      <input type="range" name="range" min="0" max="10">
+    </div>
+    <div class="inputMain">
+      <textarea name="name" cols="80" rows="10"></textarea>
+    </div>
+      <image src="" id="screenshot">
+      <button id="screenshot_button"> Get Screenshot</button>
     <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+    <script src="renderer.js"></script>
   </body>
 </html>
